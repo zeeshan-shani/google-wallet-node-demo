@@ -7,7 +7,7 @@ const { NewTicket, Event } = require('../models/dummy'); // mock models
 class googleWallet {
     constructor() {
         this.issuerId = '3388000000022883775';
-        this.classSuffix = 'gxticketsevent321';
+        this.classSuffix = 'txticketsevent321';
         this.classId = `${this.issuerId}.${this.classSuffix}`;
         this.credentials = serviceAccount;
 
